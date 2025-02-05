@@ -1,11 +1,9 @@
 import {Component} from '@angular/core';
-import {RouterOutlet} from '@angular/router';
-import {RolesComponent} from './components/roles/roles.component';
-import {DesignationComponent} from "./components/designation/designation.component";
+import {HttpComponent} from "./components/http/http.component";
 
 @Component({
     selector: 'app-root',
-    imports: [RouterOutlet, RolesComponent, DesignationComponent],
+    imports: [HttpComponent],
     templateUrl: './app.component.html',
     standalone: true,
     styleUrl: './app.component.css'
